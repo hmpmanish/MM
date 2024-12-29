@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Manish Pandey</title>
+    <!-- Add FontAwesome for icon usage -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #ff4081;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .projects-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+
+        .projects-list li {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #333;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: translateY(-10px) rotate(15deg);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+            background-color: #ff4081;
+        }
+
+        .social-icon i {
+            font-size: 30px;
+            color: white;
+        }
+
+        .social-icon.github:hover {
+            background-color: #333;
+        }
+
+        .social-icon.linkedin:hover {
+            background-color: #0077b5;
+        }
+
+        .social-icon.x:hover {
+            background-color: #1d9bf0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 36px;
+            }
+
+            .main-content h2 {
+                font-size: 28px;
+            }
+
+            .projects-list {
+                font-size: 16px;
+            }
+
+            .social-media {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h2>My Featured Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul class="projects-list">
+            <li><strong>Portfolio Website</strong> - A personal website to showcase my skills and projects.</li>
+            <li><strong>E-commerce App</strong> - A fully functional e-commerce application built with modern web technologies.</li>
+            <li><strong>Blogging Platform</strong> - A platform for creating and sharing blogs, with support for comments and user management.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2024 Manish Pandey | hmpmanish</p>
+         <!-- Social Media Links -->
+         <div class="social-media">
+            <a href="https://linkedin.com/in/hmpmanish/" target="_blank">
+                <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+            </a>
+            <a href="https://x.com/hmpmanish" target="_blank">
+                <img src="https://img.shields.io/badge/Twitter-Follow%20me-black?style=for-the-badge&logo=twitter" alt="Twitter" />
+            </a>
+            <a href="https://www.instagram.com/hmpmanish/" target="_blank">
+                <img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram" alt="Instagram" />
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
