@@ -14,34 +14,34 @@
 <body>
     <!-- Header Section -->
     <header id="home" class="home-section">
-
         <div class="header-top-area">
             <div class="container">
                 <div class="row">
-
+                    <!-- Logo -->
                     <div class="col-sm-3">
                         <div class="logo">
-                            <a href="index.html"><img src="images/MM-long.png"></a>
+                            <a href="index.html"><img src="images/MM-long.png" alt="Manish Pandey Logo"></a>
                         </div>
                     </div>
 
+                    <!-- Navigation Menu -->
                     <div class="col-sm-9">
                         <div class="navigation-menu">
                             <div class="navbar">
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span>
+                                        <span>Menu</span>
                                     </button>
                                 </div>
                                 <div class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a class="smoth-scroll" href="index.html">Home<div class="ripple-wrapper"></div></a></li>
-                                        <li><a class="smoth-scroll" href="about.html">About</a></li>
-                                        <li><a class="smoth-scroll" href="portfolio.html">Portfolio</a></li>
-                                        <li><a class="smoth-scroll" href="services.html">Services</a></li>
-                                        <li><a class="smoth-scroll" href="testimonials.html">Testimonials</a></li>
-                                        <li><a class="smoth-scroll" href="awards.html">Awards</a></li>
-                                        <li><a class="smoth-scroll" href="contact.html">Contact</a></li>
+                                        <li class="active"><a href="index.html" aria-current="page">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                        <li><a href="awards.html">Awards</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -51,6 +51,7 @@
             </div>
         </div>
 
+        <!-- Background Section -->
         <div class="home-section-background" data-stellar-background-ratio="0.6">
             <div class="display-table">
                 <div class="display-table-cell">
@@ -58,14 +59,13 @@
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="header-text">
-                                  <p></p>  
-                                  <h2><span class="typing"></span></h2>
-                                    <p></p>
-                                    <h4>I'm Mish, and I specialize in taking brands and businesses to the next level. With my expertise in content creation, hackathons, live streams, talks, MC, journalism, and events, I can help you make an impact that lasts.</h4>
+                                    <!-- Typing Effect Placeholder -->
+                                    <h2><span class="typing">Innovating Your Digital Presence</span></h2>
+                                    <h4>I'm Mish, specializing in brand development and impactful digital solutions. Let’s create something remarkable together!</h4>
 
                                     <div class="margin-top-60">
-                          <a class="button button-style button-style-icon fa smoth-scroll" href="portfolio.html">View Portfolio</a>
-                                  </div>
+                                        <a class="button button-style button-style-icon smoth-scroll" href="portfolio.html">View Portfolio</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,33 +73,23 @@
                 </div>
             </div>
         </div>
-
     </header>
 
-    <!-- Intro Section -->
-    <section class="intro">
-        <div class="container">
-            <h2>Welcome to My World of Technology</h2>
-            <p>Creating innovative solutions and bringing ideas to life through technology and design.</p>
-            <a href="portfolio.html" class="btn">Explore My Work</a>
-        </div>
-    </section>
+    <!-- External JavaScript for Typing Effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.14"></script>
+    <script>
+        var options = {
+            strings: ["Web Developer", "Designer", "Software Engineer"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            backDelay: 1000,
+            loop: true
+        };
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>Connect with me:</p>
-            <ul class="social-icons">
-                <li><a href="https://www.facebook.com/hmpmanish" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/hmpmanish" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/hmpmanish" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com/hmpmanish" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-            <p>Email: <a href="mailto:hmpmanish@gmail.com">hmpmanish@gmail.com</a></p>
-        </div>
-    </footer>
+        var typed = new Typed(".typing", options);
+    </script>
 
-    <!-- External JavaScript -->
+    <!-- External JavaScript for Bootstrap and Other Functionalities -->
     <script src="script.js" defer></script>
 </body>
 </html>
