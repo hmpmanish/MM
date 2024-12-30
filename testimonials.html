@@ -3,55 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Testimonials from clients and colleagues about the work of Manish Pandey.">
+    <meta name="keywords" content="Testimonials, Feedback, Reviews, Clients, Work Experience">
+    <meta name="author" content="Manish Pandey">
     <title>Testimonials - Manish Pandey</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <div class="container">
-            <h1>Manish Pandey</h1>
-            <p>Web Developer | Designer | Software Engineer</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="awards.html">Awards</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-sm-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/MM-long.png" alt="Manish Pandey Logo"></a>
+                    </div>
+                </div>
+                <!-- Navigation Menu -->
+                <div class="col-sm-9">
+                    <div class="navigation-menu">
+                        <nav class="navbar">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span>Menu</span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li class="active"><a href="testimonials.html" aria-current="page">Testimonials</a></li>
+                                    <li><a href="awards.html">Awards</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="testimonials">
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
         <div class="container">
-            <h2>What My Clients Say</h2>
-            <div class="testimonial-item">
-                <h3>Client 1</h3>
-                <p>"Manish delivered an excellent product on time and exceeded our expectations. Highly recommended!"</p>
-            </div>
-            <div class="testimonial-item">
-                <h3>Client 2</h3>
-                <p>"Great experience working with Manish. The project was completed with great attention to detail."</p>
+            <h2>What People Say</h2>
+            <p>Here’s what my clients and colleagues have to say about my work.</p>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-quote">
+                        "Manish is a phenomenal web developer. His ability to bring ideas to life through code is exceptional."
+                    </p>
+                    <p class="testimonial-author">- Rajesh Sharma, CEO of TechWorld</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-quote">
+                        "Working with Manish has been an absolute pleasure. His designs are creative, and his attention to detail is remarkable."
+                    </p>
+                    <p class="testimonial-author">- Priya Verma, Marketing Manager</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-quote">
+                        "Manish’s technical expertise and problem-solving skills have been invaluable to our team."
+                    </p>
+                    <p class="testimonial-author">- Arjun Singh, Project Manager</p>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-quote">
+                        "Manish consistently delivers top-notch work. His commitment to excellence is inspiring."
+                    </p>
+                    <p class="testimonial-author">- Neha Patel, Freelancer</p>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container text-center">
+            <h3>Interested in working together?</h3>
+            <p>Contact me today to bring your ideas to life!</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
         <div class="container">
-            <p>Connect with me:</p>
-            <ul class="social-icons">
-                <li><a href="https://www.facebook.com/hmpmanish" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/hmpmanish" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/hmpmanish" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com/hmpmanish" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-            <p>Email: <a href="mailto:hmpmanish@gmail.com">hmpmanish@gmail.com</a></p>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Connect with me:</p>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/hmpmanish" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/hmpmanish" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/hmpmanish" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/hmpmanish" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <p>Email: <a href="mailto:hmpmanish@gmail.com">hmpmanish@gmail.com</a></p>
+                    <p>© 2024 Manish Pandey. All Rights Reserved.</p>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- External JavaScript -->
+    <script src="script.js" defer></script>
 </body>
 </html>
