@@ -3,164 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Manish Pandey</title>
-    <!-- Add FontAwesome for icon usage -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-
-        header {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 80px 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        header h1 {
-            font-size: 48px;
-            margin: 0;
-        }
-
-        header nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 18px;
-            text-transform: uppercase;
-            transition: color 0.3s ease;
-        }
-
-        header nav a:hover {
-            color: #ff4081;
-        }
-
-        .main-content {
-            text-align: center;
-            padding: 60px 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .main-content h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .main-content p {
-            font-size: 18px;
-            color: #555;
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 16px;
-        }
-
-        .social-media {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .social-icon {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            background-color: #333;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-        }
-
-        .social-icon:hover {
-            transform: translateY(-10px) rotate(15deg);
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-            background-color: #ff4081;
-        }
-
-        .social-icon i {
-            font-size: 30px;
-            color: white;
-        }
-
-        .social-icon.github:hover {
-            background-color: #333;
-        }
-
-        .social-icon.linkedin:hover {
-            background-color: #0077b5;
-        }
-
-        .social-icon.x:hover {
-            background-color: #1d9bf0;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 36px;
-            }
-
-            .main-content h2 {
-                font-size: 28px;
-            }
-
-            .social-media {
-                flex-direction: column;
-                gap: 15px;
-            }
-        }
-    </style>
+    <title>Awards - Manish Pandey</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-            <a href="awards.html">Awards</a>
-        </nav>
+        <div class="container">
+            <h1>Manish Pandey</h1>
+            <p>Web Developer | Designer | Software Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="main-content">
-        <h2>Get in Touch</h2>
-        <p>If you have any questions or want to connect, feel free to reach out!</p>
-    </div>
+    <section class="awards">
+        <div class="container">
+            <h2>Awards & Recognitions</h2>
+            <div class="award-item">
+                <h3>Best Web Developer - 2023</h3>
+                <p>Recognized for excellence in web development by [organization].</p>
+            </div>
+            <div class="award-item">
+                <h3>Top Innovator Award - 2022</h3>
+                <p>Awarded for outstanding software solutions that drove business innovation.</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2024 Manish Pandey | hmpmanish</p>
-         <!-- Social Media Links -->
-         <div class="social-media">
-            <a href="https://linkedin.com/in/hmpmanish/" target="_blank">
-                <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-            </a>
-            <a href="https://x.com/hmpmanish" target="_blank">
-                <img src="https://img.shields.io/badge/Twitter-Follow%20me-black?style=for-the-badge&logo=twitter" alt="Twitter" />
-            </a>
-            <a href="https://www.instagram.com/hmpmanish/" target="_blank">
-                <img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram" alt="Instagram" />
-            </a>
+        <div class="container">
+            <p>Connect with me:</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/hmpmanish" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/hmpmanish" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hmpmanish" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/hmpmanish" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p>Email: <a href="mailto:hmpmanish@gmail.com">hmpmanish@gmail.com</a></p>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
